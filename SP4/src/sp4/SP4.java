@@ -5,6 +5,8 @@
  */
 package sp4;
 
+import arrayHandler.arrayTests;
+
 /**
  *
  * @author William
@@ -15,7 +17,9 @@ public class SP4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        arrayTests ar = new arrayTests();
+        int[] arrayTemp = {2, 5, 2, 9, 7, 1, 100, 2, 3, 5, 77, 9, 1, 2, 6, 5};
+        ar.freq(arrayTemp);
     }
     
 }

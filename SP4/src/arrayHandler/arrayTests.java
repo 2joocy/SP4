@@ -12,19 +12,20 @@ package arrayHandler;
 public class arrayTests {
 
     public void freq(int[] arr) {
-        int l;
-        int[] arrayTemp = {2, 5, 2, 9, 7, 1, 100, 2, 3, 5, 77, 9, 1, 2, 6, 5};
-        arr = arrayTemp;
+        int l,i;
+        int temp = 0;
         int[] sortedArray = {};
 
-        for (int i = 0; i < arr.length; i++) {
+        
             for (int j = 0; j < arr.length; j++) {
-                for(int k : arr){
-                    if(k == l){
-                        
-                    }
-                }
+            l = arr[j];
+            for(int k = 0; k < arr.length; k++){
+            if(j == ){
+            
+            } 
+            }
+                
             }
         }
     }
-}
+
