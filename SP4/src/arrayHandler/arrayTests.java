@@ -8,7 +8,7 @@ import java.util.TreeMap;
  */
 public class arrayTests {
 
-    public void printFreq(final int[] numbers)
+    public void freq(final int[] numbers)
     {
         final SortedMap<Integer, Integer> numCounts = new TreeMap<>();
 
